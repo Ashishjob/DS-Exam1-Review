@@ -1,8 +1,3 @@
-#include <iostream>
-#include <algorithm>
-
-using namespace std;
-
 void bubbleSort(int a[], int n) {
   int temp, comp = 0, swaps = 0; // Initialize temporary variables, comparison count, and swap count.
   
