@@ -1,24 +1,25 @@
-void optimizedBubbleSort(int a[], int n) {
-  int temp, comp = 0, swaps = 0;
-  bool swapped; // Flag to track if any swaps were made during a pass
+void bubbleSortV2(vector<int>& arr) {
+    int n = arr.size(); // Get the size of the vector.
+    bool swapped; // Flag to track if any swaps were made during a pass.
+    
+    for (int i = 0; i < n - 1; i++) {
+        swapped = false; // Initialize the flag for this pass.
 
-  for (int pass = 1; pass < n; pass++) { // Outer loop for each pass
-    swapped = false; // Initialize the flag for this pass
+        for (int j = 0; j < n - i - 1; j++) {
+            // The inner loop iterates through the unsorted portion of the vector.
+            
+            if (arr[j] > arr[j + 1]) {
+                // Compare adjacent elements and swap them if they are in the wrong order.
+                
+                swap(arr[j], arr[j + 1]);
+                swapped = true; // Set the flag to true if a swap occurs.
+            }
+        }
 
-    for (int i = 0; i < n - pass; i++) { // Inner loop for comparisons in this pass
-      comp++; // Increment the comparison count
-      if (a[i] > a[i + 1]) { // Compare adjacent elements
-        swaps++; // Increment the swap count
-        temp = a[i]; // Swap elements
-        a[i] = a[i + 1];
-        a[i + 1] = temp;
-        swapped = true; // Set the flag to true if a swap occurs
-      }
+        if (!swapped) {
+            // If no swaps were made during this pass, the vector is already sorted.
+            
+            break; // Exit the sorting loop.
+        }
     }
-
-    // If no swaps were made during this pass, the array is already sorted, so exit early
-    if (!swapped) {
-      break;
-    }
-  }
 }
