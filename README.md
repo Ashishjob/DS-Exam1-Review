@@ -27,5 +27,6 @@
 
   <h1>Time Complexity (Big O)</h1>
   <div align="center">
-    <img width="750" src="https://github.com/Ashishjob/DS-Exam1-Review/assets/114624617/84ec81ed-2e4e-4b41-99a6-5c3fbbb44698" style="pointer-events: none">
+    <img width="750" src="https://github.com/Ashishjob/DS-Exam1-Review/assets/114624617/84ec81ed-2e4e-4b41-99a6-5c3fbbb44698" style="pointer-events: none"><br></br>
+    <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/Big%20O%20Notation.md"> Big O Examples </a>
   </div>
