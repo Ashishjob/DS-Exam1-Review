@@ -17,7 +17,4 @@ void bubbleSort(int a[], int n) {
       }
     }
   }
-  cout << "Bubble Sort: " << endl;
-  cout << "# of Comparisons: " << comp <<endl;
-  cout << "# of Swaps: " << swaps << endl;
 }
