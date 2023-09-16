@@ -25,7 +25,7 @@
 <h1>Arrays:</h1>
 <h3>There are 2 types of arrays: static and dynamic.
   <br></br>
-  Static arrays are arrays that have their memory allocated on the stack, are fixed, and have a predetermined size that cannot be changed from compile time. However, each index can be
+  Static arrays are arrays that have their memory allocated on the stack, are fixed, and have a predetermined size that cannot be changed from compile time.
   <h6>Pros: They are simple to declare and use and the indices can be read quickly and easily.
   
   Cons: Fixed and unflexible size that are not versatile.</h6>
