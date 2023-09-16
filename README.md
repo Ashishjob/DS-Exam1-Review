@@ -8,25 +8,55 @@
   <img src="https://github.com/Ashishjob/DS-Exam1-Review/assets/114624617/99e248bc-efaf-4401-b403-f5cdbc3e1d42" style="pointer-events: none;">
 </div>
 
-<h1>Linked Lists</h1>
+---
+
+<h1>Linked Lists:</h1>
 
 ---
 
-<h1>Recursion</h1>
+<h1>Recursion:</h1>
 
 ---
 
-<h1>Sorting</h1>
+<h1>Sorting:</h1>
 
 ---
 
-<h1>Array</h1>
+<h1>Arrays:</h1>
+<h3>There are 2 types of arrays: static and dynamic.
+  <br></br>
+  Static arrays are arrays that have their memory allocated on the stack, are fixed, and have a predetermined size that cannot be changed from compile time. However, each index can be
+  <h6>Pros: They are simple to declare and use and the indices can be read quickly and easily.
+  
+  Cons: Fixed and unflexible size that are not versatile.</h6>
+</h3>
 
+```cpp
+  int myStaticArray[5]; // Declare a static array of integers with size 5
+```
+  <h3>Dynamic arrays, on the other hand, have their memory allocated on the heap, are flexible, and can take insertions or deletions at any time throughout the runtime.
+  <h6>Pros: They are flexible and versatile when it comes to allocating size.
+  
+  Cons: Complexity in memory management and can lead to issues such as memory leaks.</h6>
+  </h3>
+
+  ```cpp
+int* myDynamicArray = new int[5]; // Declare and allocate a dynamic array of integers with size 5
+```
 ---
 
 
-  <h1>Time Complexity (Big O)</h1>
-  <div align="center">
+  <h1>Time Complexity (Big O):</h1>
+    <h3>Big O or "Order of Growth" describes the upper bound of the time complexity of an algorithm. It is a way to express how an algorithm's running time or space requirements grow as the size of the input data increases.
+    <h3>Some examples include: O(1), O(logn), O(n), O(nlogn), O(n^2), O(2^n), and O(n!)<a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/Big%20O%20Notation.md"> more details on these here </a></h3>
+    <h4 align="center">
+      Best Case Situations: the minimum or "ideal" amount of time an algorithm takes to complete its task.<br></br>
+      Worst Case Situations: the maximum or "worst" amount of time an algorithm takes to complete its task.<br></br>
+    </h4>
+    </h3>
+    <div align="center">
     <img width="750" src="https://github.com/Ashishjob/DS-Exam1-Review/assets/114624617/84ec81ed-2e4e-4b41-99a6-5c3fbbb44698" style="pointer-events: none"><br></br>
-    <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/Big%20O%20Notation.md"> Big O Examples </a>
+    
   </div>
+  
+  ---
