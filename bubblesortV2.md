@@ -1,3 +1,8 @@
+<h1>Bubblesort V2 or Optimized Bubblesort</h1>
+
+<h4>Best case time complexity is O(n), but Worst Case time complexity is O(n^2)</h4>
+
+```cpp
 void bubbleSortV2(vector<int>& arr) {
     int n = arr.size(); // Get the size of the vector.
     bool swapped; // Flag to track if any swaps were made during a pass.
@@ -23,3 +28,4 @@ void bubbleSortV2(vector<int>& arr) {
         }
     }
 }
+```
