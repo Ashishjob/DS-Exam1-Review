@@ -15,11 +15,63 @@
 ---
 
 <h1>Recursion:</h1>
+<h3>Recursion is a fundamental operation in computer science and programming that involves having a function repeatedly call itself until a certain base case is reached, and it generally has three main requirements to follow:
 
+1. Repetition: You have to be able to repeat the function instead of just having it run once because at that point it's not recursive, but just a normal function.
+
+2. Condition: You need to have a stopping point so that the repetition does not just run infinitely. Once you reach a base case, you want to call off the repetition and return what you have calculated.
+
+3. Change in Parameter: There's no difference between a basic loop and a recursive function in getting repetition going unless you're changing the parameter in this recursive function that you're calling.
+
+<h3>Important recursive case examples that may be on the exam:
+<br></br>
+1. Fibonacci:
+</h3>
+
+```cpp
+int fib(int n) {                         // the reason behind the repetition is due to Fibonacci being repeated addition
+    if (n == 0) {                        // condition to return the Fibonacci of 0 and 1 as 0 and 1, respectively.
+        return 0;
+    } else if (n == 1) {
+        return 1;
+    }
+    else {
+        return fib(n - 1) + fib(n - 2);  // the change in parameter can be seen in the n - 1 and the n - 2
+    }
+}
+```
+<h3>
+2. Factorial:
+</h3>
+
+```cpp
+int factorial(int n) {                 // the reason behind the repetition is due to factorials being repeated multiplication
+    if (n == 0 || n == 1) {            // condition to return 1 when n is 0 or 1
+        return 1;
+    }
+    else {
+        return n * factorial(n-1);     // the change in parameter by multiplying n by factorial of (n-1).
+    }
+}
+```
+
+<h3>
+3. Recursive Traversal Through a Linked List:
+</h3>
+
+```cpp
+void recprint(node *curr) {
+  if (curr == nullptr) {                    // condition for when to stop traversing the linked list
+    return;
+  }
+  cout << "data: " << curr->data << endl;  // the reason behind the need for repetition is to view everything within the list
+  return recprint(curr->next);             // the change in parameter to update, what our function is specifically calling for
+}
+```
 ---
 
 <h1>Sorting:</h1>
-<h3>Sorting is a fundamental operation in computer science and programming that involves arranging elements in a specific order, such as ascending or descending, with the commonly used algorithms below:</h3>
+<h3>Sorting is another fundamental operation in computer science and programming that involves arranging elements in a specific order, such as ascending or descending, with the commonly used algorithms below:</h3>
 <h3>
   
   1. Bubblesort: a simple sorting algorithm that repeatedly steps through a list or array, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/bubblesort.cpp"> The code behind it</a>
