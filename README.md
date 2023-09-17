@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>DS-Exam1-Review</h1>
+  <h1>Data Structures Unit 1</h1>
 </div>
 
 ---
