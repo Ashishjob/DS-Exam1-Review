@@ -42,6 +42,8 @@ class linkedList {
     int recCount(node* curr);                // Recursively counting the nodes in the linked list
     void recPrint(node* curr);               // Recursively printing the nodes in the linked list
     bool recSearch(node* curr, int target)   // Recursively searching the nodes in the linked list
+
+    void recReversePrint(node* curr)         // Recursively and reversely printing the nodes in the linked list
 };
 ```
 
@@ -337,5 +339,19 @@ bool recSearch(node* curr, int t) {
     }
 
     return recSearch(curr->next, t);         // Recursively search in the remaining part of the list.
+}
+```
+
+<h3>
+  XII. Reverse Recursive Printing:
+</h3>
+
+```cpp
+void displayRevReccursive(node* curr) {
+  if (curr == nullptr) {
+    return;                                  // Condition to stop if the current node is nullptr
+  }
+  displayRevReccursive(curr->next);          // Recursively call on the next node
+  cout << curr->value << " ";                // Print the value of the current node
 }
 ```
