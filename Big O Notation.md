@@ -59,6 +59,38 @@ int main() {
     return 0;
 }
 ```
+
+  <h4>4. Constructors:</h4>
+
+  ```cpp
+  constructor() {
+    head = nullptr;
+  }
+```
+
+  <h4>5. Setters/Getters:</h4>
+
+  ```cpp
+  void setData(int value) {
+    data = value;
+  }
+
+  int getData() const {
+    return data;
+  }
+```
+
+  <h4>6. Checking if Linked List is Empty:</h4>
+
+  ```cpp
+  bool isEmpty() {
+    if (head == nullptr) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+```
 ---
 
 <h1> O(logn) : Logarithmic Time </h1>
