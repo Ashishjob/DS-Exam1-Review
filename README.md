@@ -85,23 +85,23 @@ void recprint(node *curr) {
 <h3>Sorting is another fundamental operation in computer science and programming that involves arranging elements in a specific order, such as ascending or descending, with the commonly used algorithms below:</h3>
 <h3>
   
-  1. Bubblesort: a simple sorting algorithm that repeatedly steps through a list or array, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/bubblesort.cpp"> The code behind it</a>
+  1. Bubblesort: a simple sorting algorithm that repeatedly steps through a list or array, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/bubblesort.md"> The code behind it</a>
 
-  2. Bubblesort V2: a variation of the basic Bubble Sort that includes an optimization to reduce the number of unnecessary comparisons. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/bubblesortV2.cpp"> The code behind it</a>
+  2. Bubblesort V2: a variation of the basic Bubble Sort that includes an optimization to reduce the number of unnecessary comparisons. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/bubblesortV2.md"> The code behind it</a>
 
 <div align="center" >
   <img width="600" align="center" src="https://miro.medium.com/v2/resize:fit:1400/1*GUkhhrPDfgdvvwVFo-il1g.gif"></img>
 </div>
 <br></br>
 
-  3. Selection Sort: an algorithm repeatedly selects the minimum (or maximum) element from the unsorted part of the array and moves it to the sorted part. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/selectionsort.cpp"> The code behind it</a>
+  3. Selection Sort: an algorithm repeatedly selects the minimum (or maximum) element from the unsorted part of the array and moves it to the sorted part. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/selectionsort.md"> The code behind it</a>
 
 <div align="center" >
   <img width="600" align="center" src="https://miro.medium.com/v2/resize:fit:1400/0*KsWSAHHomsr3_BkW.gif"></img>
 </div>
 <br></br>
 
-  4. Insertion Sort: a sorting algorithm that builds the sorted array one item at a time, placing each element in its correct position within the sorted portion of the array. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/insertionsort.cpp"> The code behind it</a>
+  4. Insertion Sort: a sorting algorithm that builds the sorted array one item at a time, placing each element in its correct position within the sorted portion of the array. <a href="https://github.com/Ashishjob/DS-Exam1-Review/blob/main/insertionsort.md"> The code behind it</a>
 
 <div align="center" >
   <img width="600" align="center" src="https://miro.medium.com/v2/resize:fit:1400/0*AWK-9HrqkRGVcRun.gif"></img>
