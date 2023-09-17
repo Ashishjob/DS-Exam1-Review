@@ -1,6 +1,6 @@
 <h1>Bubblesort</h1>
 
-<h4>Best and Worst Case time complexity are both O(n)</h4>
+<h4>Best and Worst Case time complexity are both O(n^2)</h4>
 
 ```cpp
 void bubbleSort(int a[], int n) {
