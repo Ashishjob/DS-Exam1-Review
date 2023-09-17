@@ -1,3 +1,8 @@
+<h1>Insertion Sort</h1>
+
+<h4>Best case time complexity is O(n), but Worst Case time complexity is O(n^2)</h4>
+
+```cpp
 void insertionSort(vector<int>& arr) {
     int n = arr.size(); // Get the size of the vector.
     
@@ -15,3 +20,4 @@ void insertionSort(vector<int>& arr) {
         arr[j + 1] = key; // Place the 'key' in its correct position.
     }
 }
+```
