@@ -1,3 +1,8 @@
+<h1>Bubblesort</h1>
+
+<h4>Best and Worst Case time complexity are both O(n)</h4>
+
+```cpp
 void bubbleSort(int a[], int n) {
   int temp, comp = 0, swaps = 0; // Initialize temporary variables, comparison count, and swap count.
   
@@ -23,3 +28,4 @@ void bubbleSort(int a[], int n) {
     }
   }
 }
+```
