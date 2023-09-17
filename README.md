@@ -51,7 +51,7 @@ int fib(int n) {                         // the reason behind the repetition is 
     }
 }
 ```
-<h6>Time Complexity: O(2^n)</h6>
+<h6 align="center">Time Complexity: O(2^n)</h6>
 <h3>
 2. Factorial:
 </h3>
@@ -66,7 +66,7 @@ int factorial(int n) {                 // the reason behind the repetition is du
     }
 }
 ```
-<h6>Time Complexity: O(n)</h6>
+<h6 align="center">Time Complexity: O(n)</h6>
 <h3>
 3. Recursive Traversal Through a Linked List:
 </h3>
@@ -80,7 +80,8 @@ void recprint(node *curr) {
   return recprint(curr->next);             // the change in parameter to update, what our function is specifically calling for
 }
 ```
-<h6>Time Complexity: O(n)</h6>
+<h6 align="center">Time Complexity: O(n)</h6>
+
 ---
 
 <h1>Sorting:</h1>
