@@ -1,3 +1,8 @@
+<h1>Selection Sort</h1>
+
+<h4>Best and Worst Case time complexity are both O(n^2)</h4>
+
+```cpp
 void selectionSort(vector<int>& arr) {
     int n = arr.size(); // Get the size of the vector.
     
@@ -19,3 +24,4 @@ void selectionSort(vector<int>& arr) {
         }
     }
 }
+```
