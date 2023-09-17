@@ -11,6 +11,10 @@
 ---
 
 <h1>Linked Lists:</h1>
+<h3>
+A linked list is a dynamic data structure used to store and manage a collection of elements called nodes. These nodes contain two general components: the data which can be of any type and of any amount, so strings, ints, floats, etc., and the pointer that points to the next (or previous if considering doubly linked lists which shouldn't be on this exam) which is what links the nodes together and makes them a "list"
+  
+</h3>
 
 ---
 
