@@ -64,6 +64,11 @@ void insertHead(int d) {
   temp->data = d;                            // Assign the data 'd' to the 'data' field of the new node.
   temp->next = nullptr;                      // Set the 'next' pointer of the new node to nullptr initially.
 
+  if (head == nullptr) {
+    head = temp;
+    return;
+  }
+
   temp->next = head;                         // Make the 'next' pointer of the new node point to the current head of the list.
   head = temp;                               // Update the 'head' pointer to make the new node the new head of the list.
 }
